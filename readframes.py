@@ -43,7 +43,7 @@ timeb = np.linespace(start=0, stop=len(ondaconvertidab)/framerateb, num=len(onda
 print(timemor[:10])
 print(timeaf[:10])
 print(timeh[:10])
-print(timecr[:10])
+print(timeb[:10])
 
 plt.title("Good morning vs good afternoon")
 
@@ -53,7 +53,7 @@ plt.ylabel("Amplitud")
 plt.plot(timemor, goodmorning, label="good morning")
 plt.plot(timeaf, goodafternoon,label="good afternoon", alpha=0.5)
 plt.plot(timeh, hello,label="hello", alpha=0.6)
-plt.plot(timecr, cats,label="croisssant", alpha=0.7)
+plt.plot(timeb, bass,label="bass", alpha=0.7)
 
 plt.legend()
 plt.show()
